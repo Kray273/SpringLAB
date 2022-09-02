@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- <bean id="tv"  class="com.springproj.ex03.LgTV"> </bean>대소문자 구분 없음-->
+ <bean id="tv"  class="com.springproj.ex03.SSTV"> </bean><!-- 삼성으로 원할시 여기만 수정-->
+
+</beans>
