@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="Day47_DI_Collection"/>
 <aop-project name="Day46_DI"/>
+<aop-project name="Day47_DI"/>
 <aop-project name="ch01_WebApp"/>
 </aop-reference-model>
