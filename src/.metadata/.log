@@ -3562,3 +3562,14 @@ Caused by: java.io.FileNotFoundException: C:\workspaces\SpringLAB\src\ch01_WebAp
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-09-06 14:42:38.781
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 2 2 2022-09-06 15:21:59.474
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2022-09-06 15:21:59.474
+!MESSAGE The project description file (.project) for 'ch01_WebApp' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-09-06 15:21:59.931
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-09-06 15:21:59.934
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
