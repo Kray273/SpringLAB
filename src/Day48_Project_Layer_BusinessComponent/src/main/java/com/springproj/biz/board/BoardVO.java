@@ -48,12 +48,15 @@ public class BoardVO {//JavaBean
 		this.cnt = cnt;
 	}
 	
-	@Override
+	@Override //JavaBean에서 한번에 출력할 수 있도록
 	public String toString() {
 		String data = 
-				"BoardVO[seq="+ seq +", title="+ title +", writer="+ writer +", content="+content+", date="+ regdate +", cnt="+cnt+"]";  
+				"BoardVO[seq="+ seq +", title="+ title +
+				", writer="+ writer +", content="+content+
+				", date="+ regdate +", cnt="+cnt+"]";  
 		return data;
 	}
+	
 
 	
 }

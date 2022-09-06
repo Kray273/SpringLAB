@@ -17,7 +17,7 @@ public class BoardServiceImpl implements BoardService {
 	}
 
 	@Override
-	public void getServiceList(BoardVO vo) {
+	public void getServiceList(BoardVO voD) {
 		// TODO Auto-generated method stub
 		
 	}

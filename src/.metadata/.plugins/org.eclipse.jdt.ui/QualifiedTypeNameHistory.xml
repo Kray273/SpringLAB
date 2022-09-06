@@ -14,4 +14,7 @@
     <fullyQualifiedTypeName name="javax.inject.Inject"/>
     <fullyQualifiedTypeName name="javax.annotation.Resource"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.springproj.biz.board.service.BoardService"/>
+    <fullyQualifiedTypeName name="com.springproj.biz.board.BoardVO"/>
 </qualifiedTypeNameHistroy>

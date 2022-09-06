@@ -4,7 +4,6 @@ INDEX VERSION 1.131+C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.j
 3986028330.index
 3356815726.index
 2851451072.index
-2060667010.index
 572649834.index
 480371004.index
 314976691.index
