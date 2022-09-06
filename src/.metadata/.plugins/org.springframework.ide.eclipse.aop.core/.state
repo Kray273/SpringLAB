@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="Day47_DI_Collection"/>
+<aop-project name="Day48_Project_Layer_BusinessComponent"/>
 <aop-project name="Day46_DI"/>
+<aop-project name="Day48_DI_Annotation"/>
 <aop-project name="Day47_DI"/>
 </aop-reference-model>
