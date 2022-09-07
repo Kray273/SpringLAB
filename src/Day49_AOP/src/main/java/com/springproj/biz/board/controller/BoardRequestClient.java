@@ -1,21 +1,31 @@
 package com.springproj.biz.board.controller;
 
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.GenericXmlApplicationContext;
+
 import com.springproj.biz.board.BoardVO;
-import com.springproj.biz.board.service.BoardServiceImpl;
+import com.springproj.biz.board.service.BoardService;
 
 public class BoardRequestClient {
 
 	public static void main(String[] args) {
 		
-		BoardServiceImpl service = new BoardServiceImpl(); 
+		AbstractApplicationContext factory = new GenericXmlApplicationContext("applicationContext.xml");
+		
+		
+		BoardService service =(BoardService)factory.getBean("boardService");
+		
+		//BoardServiceImpl service = new BoardServiceImpl(); Spring 이용
 		BoardVO vo = new BoardVO();
-		//매서드를 사용하려면 객체부터 만들어 준다
+	
 		
 		vo.setTitle("첫 번째 게시글");
 		vo.setWriter("euiseok");
 		vo.setContent("나는 나는 첫 번째 게시글입니다.");
 		
 		service.insertService(vo);
+		
+		factory.close();
 	}
 
 }
