@@ -7,6 +7,10 @@ C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearc
 \Day47_DI_Collection\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1454011494.index
 \Day48_DI_Annotation\src\main\java
+C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3190576212.index
+\Day00_main\src\main\java
+C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2824832627.index
+\Day49_AOP\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2491753761.index
 \Day48_Project_Layer_BusinessComponent\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3158197577.index

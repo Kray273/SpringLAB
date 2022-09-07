@@ -4,17 +4,25 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.springproj</groupId>
 	<artifactId>controller</artifactId>
-	<name>Day00_main</name>  <!-- 수정해주세요 -->
+<!-- 수정해주세요 --><name>Day00_main</name><!-- 수정해주세요 -->
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
-		<java-version>11</java-version> <!-- 자바 버전 업데이트 -->
-		<org.springframework-version>5.2.22.RELEASE</org.springframework-version> <!-- 스프링 버전 업데이트(자동 다운) -->
+ <!-- 자바 버전 업데이트 --><java-version>11</java-version>
+<!-- 스프링 버전 업데이트(자동 다운) --><org.springframework-version>5.2.22.RELEASE</org.springframework-version> 
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
 	<dependencies>
 		<!-- Spring -->
+<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc6 -->
+<!-- 위의 주소에서 복사해서 아무 위치나 넣기  -->
+<!-- DB와 연결을 위한 maven -->
+<dependency>
+    <groupId>com.oracle.database.jdbc</groupId>
+    <artifactId>ojdbc6</artifactId>
+    <version>11.2.0.4</version>
+</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
@@ -90,9 +98,9 @@
 			<version>1</version>
 		</dependency>
 			
-		<!-- tomcat 버전 업데이트 -->	
+<!-- tomcat 버전 업데이트 -->	
 			
-		<!-- Servlet _주석 또는 삭제
+<!-- Servlet _주석 또는 삭제
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId> 
@@ -100,8 +108,8 @@
 			<scope>provided</scope>
 		</dependency> -->
 		
-		<!-- 홈페이지에서 불러 와서 삽입 -->
-		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+<!-- 홈페이지에서 불러 와서 삽입 -->
+<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 		<dependency>
 		    <groupId>javax.servlet</groupId>
 		    <artifactId>javax.servlet-api</artifactId>
@@ -150,8 +158,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.5.1</version>
                 <configuration>
-                    <source>11</source><!--  보여지는 자바 정보를 11로 수정-->
-                    <target>11</target><!--  보여지는 자바 정보를 11로 수정-->
+<!--  보여지는 자바 정보를 11로 수정--><source>11</source>
+<!--  보여지는 자바 정보를 11로 수정--><target>11</target>
                     <compilerArgument>-Xlint:all</compilerArgument>
                     <showWarnings>true</showWarnings>
                     <showDeprecation>true</showDeprecation>
