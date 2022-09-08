@@ -15,15 +15,35 @@ public class BoardRequestClient {
 		
 		BoardService service =(BoardService)factory.getBean("boardService");
 		
-		//BoardServiceImpl service = new BoardServiceImpl(); Spring 이용
-		BoardVO vo = new BoardVO();
-	
+		//삽입
+//		  BoardVO vo = new BoardVO(); 
+//		  vo.setTitle("첫 번째 게시글"); 
+//		  vo.setWriter("euiseok");
+//		  vo.setContent("나는 나는 첫 번째 게시글입니다."); 
+//		  service.insertService(vo);
+		 
 		
-		vo.setTitle("첫 번째 게시글");
-		vo.setWriter("euiseok");
-		vo.setContent("나는 나는 첫 번째 게시글입니다.");
+		//List 불러오기
 		
-		service.insertService(vo);
+//		  BoardVO board = service.getService(4); 
+//		  System.out.println(board);
+//		 
+		
+		//강제로 예외처리 실행
+//		  BoardVO vo = new BoardVO(); 
+//		  service.insertService(vo);
+		
+		//Around 실습
+		  BoardVO vo = new BoardVO(); 
+		  vo.setTitle("n 번째 게시글"); 
+		  vo.setWriter("euiseok");
+		  vo.setContent("나는 나는 n 번째 게시글입니다."); 
+		  service.insertService(vo);
+		 
+		  BoardVO board = service.getService(4); 
+		  System.out.println(board);
+		 
+		
 		
 		factory.close();
 	}

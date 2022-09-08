@@ -7,4 +7,4 @@ create table board(
  	cnt		number(5)	default 0
 );
 
-select * from BOARD;
+select * from BOARD order by seq;

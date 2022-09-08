@@ -6,58 +6,52 @@ import org.springframework.stereotype.Service;
 
 import com.springproj.biz.board.BoardVO;
 import com.springproj.biz.board.dao.BoardDAO;
-import com.springproj.biz.common.Log4jAdvice;
 
 @Service("boardService")
 public class BoardServiceImpl implements BoardService {
 	
 	@Autowired
 	private BoardDAO dao; 
-	@Autowired
-	//private LogAdvice log;
-	private Log4jAdvice log;
 	
-	/*Annotation사용으로 불필요.
-	 * public BoardServiceImpl() { dao = new BoardDAO(); log = new LogAdvice(); }
-	 */
-	
+	//private Log4jAdvice log; AOP적용으로 불필요	
 	
 	@Override
 	public void insertService(BoardVO vo) {
-		  dao.insertBoaed(vo);
-		  //log.printLog("= insertService() =");
-		  log.printLogging("= insertService() =");
+		  //log.printLogging("= insertService() ="); AOP적용으로 불필요
+		  
+		  //강제 예외발생
+			/*
+			 * if(vo.getSeq() == 0) { throw new
+			 * IllegalArgumentException("0번 글은 등록할 수 없습니다."); }
+			 */
+		  dao.insertBoard(vo);
 	}
 
 	@Override
-	public void getService(int seq) {
-		dao.getBoaed(seq);
-		//log.printLog("= getService() =");
-		log.printLogging("= getService() =");
+	public BoardVO getService(int seq) {
+		BoardVO board = dao.getBoard(seq);
+		
+		return board;
+		//log.printLogging("= getService() ="); AOP적용으로 불필요
 	}
 
 	@Override
 	public void getServiceList() {
-		dao.getBoaedList();
-		//log.printLog("= getServiceList() =");
-		log.printLogging("= getServiceList() =");
+		dao.getBoardList();
+		//log.printLogging("= getServiceList() =");AOP적용으로 불필요
 	}
 
 	@Override
 	public void updateService(BoardVO vo) {
-		dao.updateBoaed(vo);
-		//log.printLog("= updateService() =");
-		log.printLogging("= updateService() =");
+		dao.updateBoard(vo);
+		//log.printLogging("= updateService() =");AOP적용으로 불필요
 		
 	}
 
 	@Override
 	public void deleteService(int seq) {
-		dao.deleteBoaed(seq);
-		//log.printLog("= deleteService() =");
-		log.printLogging("= deleteService() =");
+		dao.deleteBoard(seq);
+		//log.printLogging("= deleteService() =");AOP적용으로 불필요
 	}
-
-	
 
 }

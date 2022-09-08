@@ -2,6 +2,7 @@ package com.springproj.biz.board.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,10 +26,12 @@ public class BoardDAO { //DAO_Data Access Object
 	private final String BOARD_INSERT = "insert into board(seq,title,writer,content) "
 			+ "values((select nvl(max(seq),0)+1 from board),?,?,?)";
 	private final String BOARD_UPDATE = "update board set title=?, content=?, where seq=?";
+	private final String BOARD_SELECT = "select * from board where seq=?";
+	private final String BOARD_DELETE = "delete from board where seq=?";
 	
 	
 	
-	public void insertBoaed(BoardVO vo) {
+	public void insertBoard(BoardVO vo) {
 		log.printLogging("= insertBoaed() =");
 		conn = JDBCUtil.getConnection();
 		
@@ -56,22 +59,53 @@ public class BoardDAO { //DAO_Data Access Object
 		
 		
 	}
-	//목록보기 (select문)
-	public void getBoaed(int seq) {
+	
+
+	public BoardVO getBoard(int seq) {
 		log.printLogging("= getBoaed() =");
+		
 		conn = JDBCUtil.getConnection();
+		pstmt = null;
+		ResultSet rs = null;
+		try {
+			 pstmt = conn.prepareStatement(BOARD_SELECT); 
+			 pstmt.setInt(1, seq);
+			 
+			 rs = pstmt.executeQuery(); 
+			 
+			 if(rs.next()) {
+				 BoardVO board = new BoardVO();
+				 
+				 board.setSeq(rs.getInt("seq"));
+				 board.setTitle(rs.getString("title"));
+				 board.setWriter(rs.getString("writer"));
+				 board.setContent(rs.getString("content"));
+				 board.setRegdate(rs.getDate("regdate"));
+				 board.setCnt(rs.getInt("cnt"));
+				 
+				 return board;
+			 }
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		finally { 
+			JDBCUtil.close(rs,pstmt, conn);
+		}
+		
+		return null;
+
 	}
 	
-	public void getBoaedList() {
+	public void getBoardList() {
 		log.printLogging("= getBoaedList() =");
 		conn = JDBCUtil.getConnection();
 	}
 	
-	// 수정 (update문)
-	public void updateBoaed(BoardVO vo) {
+
+	public void updateBoard(BoardVO vo) {
 		log.printLogging("= updateBoaed() =");
 		conn = JDBCUtil.getConnection();
-			
+		pstmt = null;
 		try {
 			 pstmt = conn.prepareStatement(BOARD_UPDATE); 
 			 pstmt.setString(1, vo.getTitle());
@@ -88,14 +122,37 @@ public class BoardDAO { //DAO_Data Access Object
 			 
 		} catch (SQLException e) {
 			e.printStackTrace();
+		} 
+		finally { 
+			JDBCUtil.close(pstmt, conn);
 		}
 		
 	}
 	
-	// 삭제 (delete문)
-	public void deleteBoaed(int seq) {
+	
+	public void deleteBoard(int seq) {
 		log.printLogging("= deleteBoaed() =");
 		conn = JDBCUtil.getConnection();
+		pstmt = null;
+		try {
+			 pstmt = conn.prepareStatement(BOARD_DELETE); 
+			 pstmt.setInt(1, seq);
+			 
+			 int result = pstmt.executeUpdate(); 
+			 
+			 if(result == 1 ) {
+				 System.out.println("===> 데이터 삭제 성공");
+			 } else {
+				 System.out.println("===> 데이터 삭제 실패");				 
+			 }
+			 
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} 
+		finally { 
+			JDBCUtil.close(pstmt, conn);
+		}
+		
 		
 	}
 }
