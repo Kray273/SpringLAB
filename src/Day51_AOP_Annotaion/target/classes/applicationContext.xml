@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+	<context:component-scan base-package="com.springproj.biz"/>
+
+	<bean id="log" class="com.springproj.biz.common.Log4jAdvice"/>
+	<!-- 추후 삭제를 위해서 객체를 따로 생성  -->
+	
+	<bean id="beforeAdvice" class="com.springproj.biz.common.BeforeAdvice" />
+	<!--  클래스를 사용하기 위해 객체 생성 -->
+	
+	<!--AOP 구성_ 지정된 약속-->
+	<aop:config>
+		<aop:pointcut expression="execution(* com.springproj.biz.board..*Impl.*(..))" id="implPointcut"/>
+		<!--excution은 반환형(*, void, not void)과 
+		적용대상(.은 "거기까지 봐라",  ..은 "뒤에 모든 파일을 봐라" 라는 의미 )을
+		그리고 자료형(적용대상안에 *Impl로 끝나는 클래스를 지정하고
+					.*(..)은 Impl안에 모든 매개변수를 가진 매서드를 확인하라는 뜻 
+					.*(..)은 모든 매개변수 .*(*)은 하나의 매개변수 
+					.*(Integer,..)은 첫번쨰 자리에 int가 오는 매개변수를 가진이라는 뜻
+					.insert*(..)은 insert라는 매서드만 확인하라는 뜻 ) 을 입력  -->
+		<aop:aspect ref="beforeAdvice">
+			<!-- 시점은 5가지 인데, 전부 Spring에서 제공함. -->
+			<aop:before method="beforeLog" pointcut-ref="implPointcut"/>
+			<!-- 적용해할 매서드를 pointcut-ref에 작성 -->
+		 </aop:aspect>
+	</aop:config>
+	
+	<bean id="afterReturningAdvice" class="com.springproj.biz.common.AfterReturningAdvice"/>
+	
+	<aop:config>
+		<aop:pointcut expression="execution(* com.springproj.biz.board..*Impl.get*(..))" id="getPointcut"/>
+		<!-- get매서드만 리턴값이 있고, 그것만 선택한다는 의미. -->
+		<aop:aspect ref="afterReturningAdvice">
+			<aop:after-returning method="afterLog" pointcut-ref="getPointcut" returning="returnObj"/>
+			<!--returning은 리턴값을 보여줄 참조변수 삽입. -->
+		</aop:aspect>
+	</aop:config>
+	
+	<bean id="afterThrowAdvice" class="com.springproj.biz.common.AfterThrowAdvice"></bean>
+	<aop:config>
+		<aop:pointcut expression="execution(* com.springproj.biz.board..*Impl.*(..))" id="allPointcut"/>
+		<aop:aspect ref="afterThrowAdvice" >
+		<aop:after-throwing method="exceptionLog" pointcut-ref="allPointcut" throwing="exception"/>
+			<!--throwing은 리턴값을 보여줄 참조변수 삽입. -->
+		</aop:aspect>
+	</aop:config>
+	
+	<bean id="aroundAdvice" class="com.springproj.biz.common.AroundAdvice"></bean>
+	<aop:config>
+		<aop:pointcut expression="execution(* com.springproj.biz.board..*Impl.*(..))" id="aroundPointcut"/>
+		<aop:aspect ref="aroundAdvice" >
+		<aop:around method="aroundLog" pointcut-ref="aroundPointcut"/>
+		</aop:aspect>
+	</aop:config>
+	
+</beans>

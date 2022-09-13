@@ -3220,3 +3220,14 @@ Caused by: java.lang.Exception: File not found: C:\workspaces\SpringLAB\src\ch01
 2022-09-08 18:21:44,942 [Worker-232: Launching BoardRequestClient (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2022-09-08 18:21:44,945 [Worker-232: Launching BoardRequestClient (2)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-09-08 18:21:44,946 [Worker-232: Launching BoardRequestClient (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-13 09:40:02,969 [Worker-12: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-13 09:40:36,113 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.springproj:controller:1.0.0-BUILD-SNAPSHOT @ C:\workspaces\SpringLAB\src\Day51_AOP_Annotaion\pom.xml.
+2022-09-13 09:40:37,127 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Day51_AOP_Annotaion/src/main/java
+2022-09-13 09:40:37,128 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Day51_AOP_Annotaion/src/main/resources
+2022-09-13 09:40:37,129 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Day51_AOP_Annotaion/src/test/java
+2022-09-13 09:40:37,129 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Day51_AOP_Annotaion/src/test/resources
+2022-09-13 09:40:38,759 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2022-09-13 09:40:41,129 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-13 09:40:41,139 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-13 09:40:41,151 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-13 09:40:41,153 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
