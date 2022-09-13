@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import com.springproj.biz.board.BoardVO;
 
 @Service
-@Aspect
+//@Aspect
 public class AfterReturningAdvice {
 	
 	//@Pointcut("execution(* com.springproj.biz..*Impl.get*(..))")

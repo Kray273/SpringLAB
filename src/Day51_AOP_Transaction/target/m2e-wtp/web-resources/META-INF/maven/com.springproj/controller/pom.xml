@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.springproj</groupId>
 	<artifactId>controller</artifactId>
-<!-- 수정해주세요 --><name>Day51_SpringJDBC</name> <!-- 수정해주세요 -->
+<!-- 수정해주세요 --><name>Day51_AOP_Transaction</name> <!-- 수정해주세요 -->
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>

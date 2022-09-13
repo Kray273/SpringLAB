@@ -18,24 +18,25 @@ public class BoardRequestClient {
 		BoardService service =(BoardService)factory.getBean("boardService");
 		
 		  BoardVO vo = new BoardVO(); 
-		  vo.setTitle("6 번째 게시글"); 
+		  vo.setSeq(50); 
+		  vo.setTitle("n 번째 게시글"); 
 		  vo.setWriter("euiseok");
-		  vo.setContent("나는 나는 6번째 게시글입니다."); 
-		  service.insertService(vo);
+		  vo.setContent("나는 나는 n번째 게시글입니다."); 
+		  //service.insertService(vo);
 		
 		//service.updateService(2);
 		 
 //		 BoardVO board = service.getService(1); 
 //		 System.out.println(board);
 		  
-		  //글 목록 검색 기능
+		//글 목록 검색 기능
 		List<BoardVO> list = service.getServiceList();
 		System.out.println("========================");
 		for(BoardVO board : list) {
 			System.out.println(board);
 		}
 		  
-		 service.deleteService(6);
+		service.deleteService(50);
 		 
 		factory.close();
 	}
