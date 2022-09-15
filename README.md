@@ -11,3 +11,7 @@ Day49 https://www.notion.so/Day49_Board-904cc46977e24d21b2948d72ce45ec98
 Day50 https://www.notion.so/Day50_AOP-ee55bc963ef74dd987f076da3244a5eb
 
 Day51 https://www.notion.so/Day51_AOP-7c4f6e4f518b4334bf1393e2f2d96037
+
+Day52 https://www.notion.so/Day52_MVC-be5d8d4ddd9542c08e6cb9dd6410facb
+
+Day53 
