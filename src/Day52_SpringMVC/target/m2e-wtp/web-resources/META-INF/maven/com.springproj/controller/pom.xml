@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.springproj</groupId>
 	<artifactId>controller</artifactId>
-	<name>ch10_SpringMVC</name>
+	<name>Day52_SpringMVC</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
