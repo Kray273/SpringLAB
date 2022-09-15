@@ -6,6 +6,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\workspaces\SpringLAB\src\Day51_AOP_Transaction"/>
+			<item value="C:\workspaces\SpringLAB\src\Day51_SpringJDBC"/>
+			<item value="C:\workspaces\SpringLAB\src\Day51_AOP_Annotaion"/>
+			<item value="C:\workspaces\SpringLAB\src\Day50_AOP"/>
 			<item value="C:\workspaces\SpringLAB\src\Day00_main"/>
 			<item value="C:\workspaces\SpringLAB\src\Day49_AOP"/>
 			<item value="C:\workspaces\SpringLAB\src\Day48_Project_Layer_BusinessComponent2"/>
