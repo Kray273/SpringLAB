@@ -19,7 +19,7 @@ public class BoardDAO { // DAO (Data Access Object)
 
 	private final String BOARD_DELETE = "DELETE FROM board  WHERE seq = ?";
 
-	private final String BOARD_GET = "SELECT * FROM board  WHERE seq = ?";
+	private final String BOARD_GET = "SELECT * FROM board WHERE seq = ?";
 
 	//private final String BOARD_GETLIST = "SELECT * FROM board  ORDER BY seq ASC";
 	private final String BOARD_GETLIST = "SELECT * FROM board  ORDER BY seq DESC";

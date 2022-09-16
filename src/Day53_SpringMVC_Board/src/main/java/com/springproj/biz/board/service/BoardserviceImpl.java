@@ -41,9 +41,6 @@ public class BoardserviceImpl implements BoardService {
 	public BoardVO getService(int seq) {
 		// TODO Auto-generated method stub
 		
-		//log.printLog(" = getService =");
-		
-		//dao.getBoard(seq);
 		BoardVO board = dao.getBoard(seq);
 		
 		return board;
