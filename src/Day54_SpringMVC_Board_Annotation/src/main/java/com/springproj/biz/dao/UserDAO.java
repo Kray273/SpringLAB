@@ -1,0 +1,27 @@
+package com.springproj.biz.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.springproj.biz.domain.UserVO;
+
+@Repository("userDAO")
+public class UserDAO {
+	
+	@Autowired
+	JdbcTemplate jdbcTemplate;
+	
+	private final String USER_GET = "select * from users where id=? and password=?";
+	
+	
+	//CRUD 기능의 method구현
+
+	//회원 상세 정보
+	public UserVO getUser(UserVO user) {
+		//System.out.println("gerUser() 호출");
+		Object[] args = {user.getId(),user.getPassword()};
+		
+		return jdbcTemplate.queryForObject(USER_GET, args, new UserRowMapper());
+	}
+}

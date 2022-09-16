@@ -6,7 +6,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Service;
 
-import com.springproj.biz.board.BoardVO;
+import com.springproj.biz.domain.BoardVO;
 
 
 @Service

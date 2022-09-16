@@ -2,7 +2,7 @@ package com.springproj.biz.common;
 
 import org.aspectj.lang.JoinPoint;
 
-import com.springproj.biz.board.BoardVO;
+import com.springproj.biz.domain.BoardVO;
 
 
 

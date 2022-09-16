@@ -12,7 +12,8 @@
 	<hr>
 	
 	<div align="center">
-		<a href="login.jsp">로그인</a>
+		<!-- <a href="login.jsp">로그인</a> -->
+		<a href="login.me">로그인</a>
 		
 		<br><br>
 		

@@ -3,5 +3,6 @@
   <module moduleId="org.eclipse.jst.jee.server:ch01_WebApp" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Day53_SpringMVC_Board" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Day52_SpringMVC_Board" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Day54_SpringMVC_Board_Annotation" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:ch02_DI" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>

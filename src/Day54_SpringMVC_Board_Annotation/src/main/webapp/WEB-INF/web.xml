@@ -44,6 +44,7 @@ id="WebApp_ID" version="4.0">
 	<servlet-mapping>
 		<servlet-name>appServlet</servlet-name>
 		<url-pattern>*.do</url-pattern>
+		<url-pattern>*.me</url-pattern>
 	</servlet-mapping>
 
 </web-app>
