@@ -47,7 +47,7 @@ public class BoardController {
 		// 파일 업로드 처리
 			//위치 정보 지정
 			String fileSaveFolder = session.getServletContext().getRealPath("/boardUpload/");
-			System.out.println("=>"+fileSaveFolder);
+			//System.out.println("=>"+fileSaveFolder);
 			//실행하면 위치를 알 수 있음_올바른 위치 학인
 			//C:\workspaces\SpringLAB\src\Day55_SpringMVC_FileUpload\src\main\webapp\boardUpload\
 			
