@@ -16,4 +16,4 @@ Day52 https://www.notion.so/Day52_MVC-be5d8d4ddd9542c08e6cb9dd6410facb
 
 Day53 https://www.notion.so/Day53_-e2a4f4af4dcb46209d57107d601143c5
 
-https://www.notion.so/Day54_MVC-Annotation-f438ff5a5d4b4cf4baa50fca141e583c
+Day54 https://www.notion.so/Day54_MVC-Annotation-f438ff5a5d4b4cf4baa50fca141e583c
