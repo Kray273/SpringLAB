@@ -8,15 +8,14 @@ import com.springproj.biz.domain.UserVO;
 import com.springproj.biz.service.UserService;
 
 @Service("UserService")
-public class UserserviceImpl implements UserService {
+public class UserServiceImpl implements UserService {
 
 	@Autowired
-	private UserDAO dao;
+	UserDAO userDAO;
 	
 	@Override
-	public UserVO getUser(UserVO user) {
-		UserVO login = dao.getUser(user);
-		return login;
+	public UserVO getService(UserVO user) {
+		return userDAO.getUser(user);
 	}
 
 	
