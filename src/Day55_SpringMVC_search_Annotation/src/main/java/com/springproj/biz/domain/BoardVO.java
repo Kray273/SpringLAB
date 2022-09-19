@@ -10,8 +10,23 @@ public class BoardVO {  //JavaBean
 	private String content;
 	private Date regdate;
 	private int cnt;
+	// 검색 기능 추가
+	private String searchCondition;
+	private String searchKeyword;
 	
 	
+	public String getSearchCondition() {
+		return searchCondition;
+	}
+	public void setSearchCondition(String searchCondition) {
+		this.searchCondition = searchCondition;
+	}
+	public String getSearchKeyword() {
+		return searchKeyword;
+	}
+	public void setSearchKeyword(String searchkeyword) {
+		this.searchKeyword = searchkeyword;
+	}
 	public int getSeq() {
 		return seq;
 	}
