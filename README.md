@@ -20,4 +20,30 @@ Day54 https://www.notion.so/Day54_MVC-Annotation-f438ff5a5d4b4cf4baa50fca141e583
 
 Day55 https://www.notion.so/Day55_Login-b3cef5bd4127482e990fbce8b6ebe5be
 
-Day56
+Day56 https://www.notion.so/Day56_Exception-eef44febf22b437a9ce7242fe988160f
+
+Day57
+
+Day58
+
+Day59
+
+Day60
+
+Day61
+
+Day62
+
+Day63
+
+Day64
+
+Day65
+
+Day66
+
+Day67
+
+Day68
+
+Day69
