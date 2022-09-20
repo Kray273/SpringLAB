@@ -1,4 +1,6 @@
 INDEX VERSION 1.131
+C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1921267003.index
+\Day57_SpringMVC_Mybatis_Connection\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1549862781.index
 \Day55_SpringMVC_Login\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3543027061.index
@@ -27,8 +29,14 @@ C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearc
 \Day55_SpringMVC_Login2\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1251534069.index
 \Day55_SpringMVC_search_Annotation\src\main\java
+C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3400524526.index
+\Day57_SpringMVC_Mybatis_Connection\src\main\java
+C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3466849449.index
+\Day57_SpringMVC_Mybatis_Connection\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3189452050.index
 \Day55_SpringMVC_Reserch_Annotation\src\main\java
+C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\223194792.index
+\Day56_SpringMVC_Mybatis_Connection\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2199584890.index
 \Day54_SpringMVC_Board_Annotation\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4155251779.index
@@ -47,10 +55,14 @@ C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearc
 \Day55_SpringMVC_Exception\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1364563855.index
 \Day53_SpringMVC_Board\src\main\java
+C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1138886897.index
+\Day56_SpringMVC_Mybatis_Connection\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3190576212.index
 \Day00_main\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1945567784.index
 \Day52_SpringMVC_Board\src\main\java
+C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\8154209.index
+\Day56_SpringMVC_Mybatis_Connection\src\main\java
 C:\workspaces\spring\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2015874801.index
 \ch02_DI\src\main\java
 C:\workspaces\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\955573291.index

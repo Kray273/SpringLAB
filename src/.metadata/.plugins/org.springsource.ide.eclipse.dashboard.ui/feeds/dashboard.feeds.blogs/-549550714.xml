@@ -5,7 +5,34 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-09-19T16:00:00Z</updated>
+  <updated>2022-09-20T07:00:00Z</updated>
+  <entry>
+    <title>This Week in Spring - September 20th, 2022</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/09/20/this-week-in-spring-september-20th-2022" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-09-20:4913</id>
+    <updated>2022-09-20T07:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt; wherein I endeavor as best as I can to capture the latest-and-greatest in the wide, wacky, and wonderful world of Springdom! Naturally, I fail miserably basically every week. There&amp;rsquo;s no way I could hope to capture everything of note. But I persist&amp;hellip; &lt;/p&gt;
+&lt;p&gt;So, without further ado, yet another wonderful week&amp;rsquo;s roundup! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[A Bootiful Podcast: big data legend, former Pivot, and friend to the Spring community, Tim Spann](&lt;a href="https://spring.io/blog/2022/09/15/"&gt;https://spring.io/blog/2022/09/15/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/09/14/spring-cloud-dataflow-2-9-6-released"&gt;Spring Cloud Dataflow 2.9.6 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/09/19/spring-data-2022-0-0-m6-2021-2-3-and-2021-1-7-released"&gt;Spring Data 2022.0.0-M6, 2021.2.3, and 2021.1.7 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/09/19/spring-data-rest-vulnerability-cve-2022-31679"&gt;Spring Data REST Vulnerability (CVE-2022-31679)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/09/15/spring-framework-6-0-0-m6-and-5-3-23-available-now"&gt;Spring Framework 6.0.0-M6 and 5.3.23 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/09/19/spring-security-6-0-0-m7-and-5-8-0-m3-are-released"&gt;Spring Security 6.0.0-M7 and 5.8.0-M3 are released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/09/16/spring-tools-4-16-0-released"&gt;Spring Tools 4.16.0 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.feedspot.com/spring_blogs/"&gt;15 Best Spring Framework Blogs and Websites in 2022&lt;/a&gt;&lt;br/&gt;a-bootiful-podcast-big-data-legend-former-pivot-and-friend-to-the-spring-community-tim-spann)&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2022/09/15/app-rollout-features-reach-stable/"&gt;Blog: Kubernetes 1.25: Two Features for Apps Rollouts Graduate to Stable&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/711688693/0/baeldung~Difference-Between-ClassgetResource-and-ClassLoadergetResource"&gt;Difference Between Class.getResource() and ClassLoader.getResource()&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/712177184/0/baeldung~Map-a-JSON-POST-to-Multiple-Spring-MVC-Parameters/"&gt;Map a JSON POST to Multiple Spring MVC Parameters&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I&amp;rsquo;m honored to be included in a list of &lt;a href="https://biztechmagazine.com/article/2022/09/30-small-business-it-influencers-worth-following-2022"&gt;30 Small Business IT Influencers Worth Following in 2022&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Security 6.0.0-M7 and 5.8.0-M3 are released</title>
     <link rel="alternate" href="https://spring.io/blog/2022/09/19/spring-security-6-0-0-m7-and-5-8-0-m3-are-released" />
@@ -973,38 +1000,6 @@ class RequestHashingGatewayFilterFactoryTest {&#xD;
 &lt;p&gt;We would like to thank all contributors who had a role in this release! As we continue our work on Spring Batch 5, we look forward to your feedback on &lt;a href="https://github.com/spring-projects/spring-batch/issues"&gt;Github&lt;/a&gt;, &lt;a href="https://twitter.com/springbatch"&gt;Twitter&lt;/a&gt; and &lt;a href="https://stackoverflow.com/questions/tagged/spring-batch"&gt;StackOverflow&lt;/a&gt;.&lt;/p&gt;
 &lt;hr/&gt;
 &lt;p&gt;&lt;a href="https://spring.io/projects/spring-batch"&gt;Spring Batch Home&lt;/a&gt;|&lt;a href="https://github.com/spring-projects/spring-batch"&gt;Source on Github&lt;/a&gt;|&lt;a href="https://docs.spring.io/spring-batch/docs/5.0.0-M5/reference/html/index-single.html"&gt;Reference documentation&lt;/a&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - August 23rd, 2022</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/08/23/this-week-in-spring-august-23rd-2022" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2022-08-23:4891</id>
-    <updated>2022-08-23T07:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! We&amp;rsquo;ve got a &lt;em&gt;ton&lt;/em&gt; to cover, so let&amp;rsquo;s dive right into it!&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/08/18/a-bootiful-podcast-flowable-founder-joram-barrez-on-a-bootiful-podcast-on-workflow-business-process-management-and-more"&gt;A Bootiful Podcast: Flowable founder Joram Barrez on a Bootiful Podcast on workflow, business process management, and more&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/707579474/0/baeldung~Building-IoT-Applications-Using-Fauna-and-Spring"&gt;Building IoT Applications Using Fauna and Spring&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://dev.to/mkheck/cosmos-db-for-spring-developers-part-i-using-cosmos-db-as-a-sql-database-28me"&gt;Cosmos DB for Spring Developers, Part I: Using Cosmos DB as a SQL Database&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://paketo.io/docs/howto/web-servers/#build-and-serve-a-frontend-framework-app"&gt;How to Build Web Servers with Paketo Buildpacks - Paketo Buildpacks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/08/16/introducing-experimental-spring-support-for-apache-pulsar"&gt;Introducing Experimental Spring Support for Apache Pulsar&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/706628598/0/baeldung~Propagating-Exceptions-With-OpenFeign-and-Spring"&gt;Propagating Exceptions With OpenFeign and Spring&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/08/17/spring-authorization-server-0-4-0-m1-available-now"&gt;Spring Authorization Server 0.4.0-M1 available now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/08/17/spring-authorization-server-1-0-0-m1-available-now"&gt;Spring Authorization Server 1.0.0-M1 available now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/08/17/spring-boot-2-6-11-available-now"&gt;Spring Boot 2.6.11 available now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/08/18/spring-boot-2-7-3-available-now"&gt;Spring Boot 2.7.3 available now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://medium.com/@salithachathuranga94/spring-boot-actuator-6f79f93fa1b2"&gt;Spring Boot Actuator&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/paketo-buildpacks/native-image/issues/176"&gt;Spring Boot Native image builds with 22.2.0 are failing ¡¤ Issue #176 paketo-buildpacks/native-image&lt;/a&gt; - this is in regards to an issue related to Buildpacks that just appeared last week. There&amp;rsquo;s a workaround that&amp;rsquo;s been recently deployed.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=VVn9OG9nfH0"&gt;Spring Boot and Spring Security with JWT including Access and Refresh Tokens &#x1f511;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/707545216/0/baeldung~Spring-JDBC-Batch-Inserts"&gt;Spring JDBC Batch Inserts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/08/16/spring-security-5-8-0-m2-is-released"&gt;Spring Security 5.8.0-M2 is released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/08/19/spring-shell-2-1-1-is-now-available"&gt;Spring Shell 2.1.1 is now available&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://medium.com/javarevisited/spring-for-graphql-with-querydsl-9c4964a225d9"&gt;Spring for GraphQL with Querydsl.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=1PUshxvTbAc"&gt;Testcontainers and Spring Boot for local development and integration testing &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

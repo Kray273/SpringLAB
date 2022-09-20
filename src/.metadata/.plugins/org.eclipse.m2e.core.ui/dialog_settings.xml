@@ -6,6 +6,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\workspaces\SpringLAB\src\Day56_SpringMVC_Mybatis_Connection"/>
+			<item value="C:\workspaces\SpringLAB\src\Day56_SpringMVC_ MyBatis"/>
+			<item value="C:\workspaces\SpringLAB\src\Day56_SpringMVC_Internationalization"/>
 			<item value="C:\workspaces\SpringLAB\src\Day55_SpringMVC_Exception"/>
 			<item value="C:\workspaces\SpringLAB\src\Day55_SpringMVC_FileUpload"/>
 			<item value="C:\workspaces\SpringLAB\src\Day55_SpringMVC_Reserch_Annotation"/>
@@ -18,9 +21,6 @@
 			<item value="C:\workspaces\SpringLAB\src\Day51_SpringJDBC"/>
 			<item value="C:\workspaces\SpringLAB\src\Day51_AOP_Annotaion"/>
 			<item value="C:\workspaces\SpringLAB\src\Day50_AOP"/>
-			<item value="C:\workspaces\SpringLAB\src\Day00_main"/>
-			<item value="C:\workspaces\SpringLAB\src\Day49_AOP"/>
-			<item value="C:\workspaces\SpringLAB\src\Day48_Project_Layer_BusinessComponent2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
