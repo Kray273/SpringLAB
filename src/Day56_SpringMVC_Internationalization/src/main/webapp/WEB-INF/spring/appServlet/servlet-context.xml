@@ -44,8 +44,29 @@
 			<beans:prop key="java.lang.NullPointerException">common/nullPointerError</beans:prop>
 			</beans:props>
 		</beans:property>
-		<!-- 위 에러 밖의 에러 처리 -->
 		<beans:property name="defaultErrorView" value="common/error"/>
 	</beans:bean>
+	
+   <!-- 다국어 설정 -->
+   <beans:bean id="messageSource"
+      class="org.springframework.context.support.ResourceBundleMessageSource">
+      <beans:property name="basenames">
+         <beans:list>
+            <beans:value>message.messageSource</beans:value>
+         </beans:list>
+      </beans:property>
+   </beans:bean>
+   
+   <!-- LocaleResolver 등록 -->
+   <beans:bean id="localeResolver" 
+            class="org.springframework.web.servlet.i18n.SessionLocaleResolver"></beans:bean>
+
+   <!--LocaleChangeInterceptor 등록  -->
+   <interceptors>
+   <beans:bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+   <beans:property name="paramName" value="lang" />
+   </beans:bean>
+   </interceptors>
+
 	
 </beans:beans>
