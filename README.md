@@ -22,7 +22,7 @@ Day55 https://www.notion.so/Day55_Login-b3cef5bd4127482e990fbce8b6ebe5be
 
 Day56 https://www.notion.so/Day56_Exception-eef44febf22b437a9ce7242fe988160f
 
-Day57
+Day57 https://www.notion.so/Day57_Mybatis-068df85f92454b128d73f500012687c3
 
 Day58
 
