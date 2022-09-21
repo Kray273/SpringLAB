@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.springproj.biz.dao.BoardDAO;
+import com.springproj.biz.dao.BoardDAOMybatis;
 import com.springproj.biz.domain.BoardVO;
 import com.springproj.biz.service.BoardService;
 
@@ -13,7 +13,8 @@ import com.springproj.biz.service.BoardService;
 public class BoardserviceImpl implements BoardService {
 
 	@Autowired
-	private BoardDAO dao;
+	private BoardDAOMybatis dao;
+	//private BoardDAO dao;
 	
 
 	@Override

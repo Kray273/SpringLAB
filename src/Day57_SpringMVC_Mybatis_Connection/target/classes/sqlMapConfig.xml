@@ -3,6 +3,15 @@
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "https://mybatis.org/dtd/mybatis-3-config.dtd">
   
-<configuration>
+  <configuration>
+  
+  	<!-- Alias (별명) 설정 -->
+  	<typeAliases>
+  		<typeAlias alias="board" type="com.springproj.biz.domain.BoardVO"/>
+  	</typeAliases>
 
-</configuration>
+		<!-- sql Mapper 설정 -->
+  	<mappers>
+  		<mapper resource="mappings/boardMapping.xml"/>
+  	</mappers>
+  </configuration>

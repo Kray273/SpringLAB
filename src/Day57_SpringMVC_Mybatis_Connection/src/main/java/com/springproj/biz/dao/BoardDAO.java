@@ -27,51 +27,40 @@ public class BoardDAO extends SqlSessionDaoSupport{ // DAO (Data Access Object)
 
 	// 글 등록(insert문)
 	public void insertBoard(BoardVO vo) {
-		getSqlSession().insert("Board.insertBoard", vo);
-		
+		getSqlSession().insert("Board.insertBoard", vo);	
 	}
 
 	// 목록보기(select문)
 	public BoardVO getBoard(int seq) {
-		Object[] args = {seq};
-		
-		return null;
-				
+		return getSqlSession().selectOne("Board.getBoard", seq);	
 	}
 
 	public List<BoardVO> getBoardList(BoardVO vo) {
-		
-		
-		
-		//쿼리문의 ?를 해결하기 위함
-		Object[] args = {vo.getSearchKeyword()};
-		
+
 		if(vo.getSearchCondition().equals("TITLE")) {	
-			 //return jdbcTemplate.query(BOARD_GETLIST_T, args, new BoardRowMapper());
+			return getSqlSession().selectList("Board.getBoardList_T", vo);
 		} else if(vo.getSearchCondition().equals("CONTENT")) {
-			//return jdbcTemplate.query(BOARD_GETLIST_C, args, new BoardRowMapper());
+			return getSqlSession().selectList("Board.getBoardList_C", vo);
+		} else {
+			return getSqlSession().selectList("Board.getBoardList_T",vo);	
 		}
-		
-		return null;
 		
 	}
 
 	// 글 수정(update문)
 	public void updateBoard(BoardVO vo) {
-		Object[] args = {vo.getTitle(), vo.getContent(), vo.getSeq()};
-		//jdbcTemplate.update(BOARD_UPDATE, args);	
+		getSqlSession().update("Board.updateBoard", vo);	
 		
 	}
 
 	// 글 삭제(delete문)
 	public void deleteBoard(int seq) {
-		//jdbcTemplate.update(BOARD_DELETE, seq);
+		getSqlSession().delete("Board.deleteBoard", seq);	
 	}
 	
 	// 조회수 증가
 	public void cutUp(BoardVO vo) {
-		Object[] args = {vo.getCnt(), vo.getSeq()};
-		//jdbcTemplate.update(BOARD_CUNUP, args);
+		getSqlSession().update("Board.cutUp",vo);	
 	}
 
 	//mybatis사용으로 불필요	
