@@ -8,9 +8,11 @@ public class MemberMain {
 		
 		ApplicationContext factory = 
 				new ClassPathXmlApplicationContext("memberservice/member.xml");
-		MemberService service = factory.getBean("service",MemberBasicService.class);
+		MemberService service = factory.getBean("service2",MemberBasicService.class);
+		//MemberService service = factory.getBean("service1",MemberJenService.class);
 		
 		service.registerMember();
+		
 		
 	}
 }

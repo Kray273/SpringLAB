@@ -1,5 +1,6 @@
 package anno.memberservice;
 
+
 public class MemberDTO {
 	String id, pw, name, email, phone, address, indate;
 	

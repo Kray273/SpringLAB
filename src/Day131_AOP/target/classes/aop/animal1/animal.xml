@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+<!-- target 클래스 객체 생성  -->
+<bean id="dog"  class="aop.animal1.Dog"/>
+<bean id="cat"  class="aop.animal1.Cat"/>
+<bean id="rabbit"  class="aop.animal1.Rabbit"/>
+
+<!-- aspect 클래스 객체 생성  -->
+<bean id="animalAspect"  class="aop.animal1.AnimalAspect"/>
+
+<!-- aop설정 -->
+<aop:config> 
+	<aop:pointcut expression="execution(public * aop.animal1.*.*(..))" id="an"/>
+	<aop:aspect ref="animalAspect" id="animalAspect">
+	<!-- 실행 시점 결정 -->
+	<aop:around method="feed" pointcut-ref="an"/>
+	</aop:aspect>
+</aop:config>
+
+</beans>

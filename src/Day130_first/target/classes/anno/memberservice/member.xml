@@ -8,6 +8,7 @@
 <context:component-scan base-package="anno.memberservice.member"/>
 <bean id="dto2" class="memberservice.PrintDAO">
 	<property name="point" value="10000"/>
+	
 </bean>
 <bean id="dto1" class="anno.memberservice.MemberDTO">
 	<property name="id" value="spring" />

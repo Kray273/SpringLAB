@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+<!-- target 클래스 객체 생성  @으로 대체-->
+<!-- <bean id="member"  class="aop1.Member"/>
+<bean id="board"  class="aop1.Board"/>-->
+<!-- aspect 클래스 객체 생성  @으로 대체 -->
+<!-- <bean id="common"  class="aop1.Common"/> -->
+
+<!-- context namespace에서 추가 후 객체생성-->
+<context:component-scan base-package="aop2"/>
+<!-- 이후 객체 생성을 원하는 클래스위에 어노테이션 설정 -->
+<!-- @Service @Repository @Componet @Autowired @Quailifier 인식 설정 -->
+
+<!-- aop설정 필요없음-->
+<aop:aspectj-autoproxy/>
+<!-- @Aspect @Pointcut @Before @After @Around인식 설정 -->
+
+</beans>
