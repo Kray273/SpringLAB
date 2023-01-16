@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%-- <%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core"%> --%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +15,7 @@
 <h5>${model[3]}</h5>
 <h5>${model[4]}</h5>
 
-<c:forEach items="${model}" var="names" >
+<c:forEach items="${model}" var="names">
 <h5>${names}</h5>
 </c:forEach>
 
