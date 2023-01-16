@@ -5,6 +5,8 @@ C:\sba\Workspace\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspse
 \Day130_first\src\main\java
 C:\sba\Workspace\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1061201067.index
 \Day130_first\src\main\java
+C:\sba\Workspace\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\426987659.index
+\Day134_MyBatis\src\main\java
 C:\sba\Workspace\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1420165642.index
 \Day132_AnotationMVC\src\main\java
 C:\sba\Workspace\SpringLAB\src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1978548803.index
