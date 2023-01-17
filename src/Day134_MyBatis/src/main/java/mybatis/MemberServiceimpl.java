@@ -58,33 +58,12 @@ public class MemberServiceimpl implements MemberService {
 	}
 
 	@Override
-	public String deletemember(String id) {
-		//tes7 - 삭제 수정(join으로 인한! )
-		//1. id회원이 작성 글이 있는 지 검사
-		//2. 글이 잇으면 사용자 탈퇴전 글도 삭제하시겠습니까?y/n
-		//3-1 Y : 사용자 탈퇴
-		//3-2 N : 사용자 탈퇴 취소
-		MemberDTO resultm = dao.onemember(id);
-		if (resultm != null) {
-			//board에 글이 있는지 조회
-			int resultb = dao.oneboard(id);
-			if(resultb > 0 ) {
-				//글을 삭제할 것인지 확인
-				System.out.print("탈퇴전 글도 삭제하시겠습니까?y/n");
-				Scanner scanner = new Scanner(System.in);
-				String sc = scanner.nextLine();
-				if(sc.equals("y")) {
-					dao.deletemember(id);		
-					return id + "회원을 삭제하였습니다."; 									
-				}else if(sc.equals("n")) {
-					return "탈퇴를 취소하였습니다."; 														
-				}else {
-					System.out.print("탈퇴전 글도 삭제하시겠습니까?y/n");
-					sc = ne
-				}
-			}
+	public int deletemember(String id) {
+		MemberDTO resultdto = dao.onemember(id);
+		if (resultdto == null) {
+			return dao.deletemember(id);		
 		}
-		return "일치하는 회원이 없습니다.";
+		return 0;
 	}
 
 	@Override

@@ -11,7 +11,7 @@ public interface MemberService {
 	public List<MemberDTO> pageinglist(int[] limit);
 	public int insertmember(MemberDTO dto);
 	public int updatemember(MemberDTO dto);
-	public String deletemember(String id);
+	public int deletemember(String id);
 	public List<MemberDTO> searchmember(HashMap map);
 	public List<MemberDTO> addresssearch(ArrayList<String> addresslist);
 	public List<MemberDTO> combination(MemberDTO comdto);
