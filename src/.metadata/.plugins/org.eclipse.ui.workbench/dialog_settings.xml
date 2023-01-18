@@ -3,15 +3,14 @@
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.m2e.core.wizards.Maven2ImportWizard"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
-			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.m2e"/>
-			<item value="org.eclipse.wst.web.ui"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springframework.ide.eclipse.beans.ui.wizards.newBeansConfig"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
+			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
 			<item value="org.eclipse.jst.ws.ui.new"/>
 			<item value="org.eclipse.wst.XMLCategory"/>
 		</list>

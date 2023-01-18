@@ -2350,3 +2350,1457 @@ java.lang.Exception: The resource tree is locked for modifications.
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 17:39:14.921
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2023-01-17 20:33:07.902 -----------------------------------------------
+eclipse.buildId=3.9.18.202109140905-RELEASE-e421
+java.version=11.0.15.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.jface 2 0 2023-01-17 20:33:15.417
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-17 20:33:15.417
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@29612ee2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@20524816,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-01-17 20:33:18.612
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:40.232
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:40.242
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:40.722
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:40.722
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:40.761
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:40.763
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:40.822
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:40.822
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:40.971
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:40.971
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:41.042
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-17 20:33:41.042
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2023-01-18 09:05:19.995 -----------------------------------------------
+eclipse.buildId=3.9.18.202109140905-RELEASE-e421
+java.version=11.0.15.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.jface 2 0 2023-01-18 09:05:29.305
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-18 09:05:29.305
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ab29866,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74cad577,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-01-18 09:05:33.071
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.225
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.240
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.592
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.592
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.639
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.639
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.701
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.701
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.811
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.811
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.889
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:05:36.889
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 09:36:54.731
+!MESSAGE Unable to configure Day136_file
+!STACK 0
+org.eclipse.m2e.wtp.MarkedException: Unable to configure Day136_file
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:101)
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:70)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:122)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$2(ProjectConfigurationManager.java:511)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:505)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:296)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:75)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:138)
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:97)
+	... 18 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:36:56.106
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:36:56.119
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:37:00.818
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:37:00.821
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:38:42.096
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:38:42.097
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:38:42.101
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:38:43.585
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:38:43.589
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:38:45.652
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:38:45.653
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:39:53.567
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:39:53.570
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:40:07.563
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:40:07.565
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 4 380 2023-01-18 09:42:58.708
+!MESSAGE The resource tree is locked for modifications.
+!STACK 0
+java.lang.Exception: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:122)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:98)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:35)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:98)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:241)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:132)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1425)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:350)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:624)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2669)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1958)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1934)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1891)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:532)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:349)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.lambda$1(PackageExplorerContentProvider.java:955)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.runUpdates(PackageExplorerContentProvider.java:210)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.executeRunnables(PackageExplorerContentProvider.java:158)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.elementChanged(PackageExplorerContentProvider.java:143)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1755)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1743)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1576)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1552)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2273)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2163)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.Resource.touch(Resource.java:1769)
+	at org.eclipse.wst.html.ui.internal.contentproperties.ui.WebContentSettingsPropertyPage$1.visit(WebContentSettingsPropertyPage.java:399)
+	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:110)
+	at org.eclipse.wst.html.ui.internal.contentproperties.ui.WebContentSettingsPropertyPage.performOk(WebContentSettingsPropertyPage.java:395)
+	at org.eclipse.jface.preference.PreferenceDialog$7.run(PreferenceDialog.java:905)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.preference.PreferenceDialog.okPressed(PreferenceDialog.java:889)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.okPressed(FilteredPreferenceDialog.java:461)
+	at org.eclipse.jface.preference.PreferenceDialog.buttonPressed(PreferenceDialog.java:233)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.run(PropertyDialogAction.java:153)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:42:59.493
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:42:59.499
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:42:59.504
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:49:25.594
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:49:25.595
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:50:20.104
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:50:20.106
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:51:02.772
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:51:02.774
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:51:03.053
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:51:03.056
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:51:08.681
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:51:08.682
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:51:31.467
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:51:31.469
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:51:45.112
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:51:45.114
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:06.943
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:06.945
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:17.079
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:17.081
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:17.290
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:17.291
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:17.292
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:17.700
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:17.702
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:38.572
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:38.573
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:56.871
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:52:56.872
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:53:23.468
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:53:23.470
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:53:30.763
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:53:30.765
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:53:51.605
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:53:51.607
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.jee 4 2 2023-01-18 09:53:55.529
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jst.jee".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.createModelResource(JEE5ModelProvider.java:209)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:190)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:233)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.getXmlWebApp(Web25MergedModelProvider.java:59)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.internalModelChanged(Web25MergedModelProvider.java:155)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.xmlModelChanged(Web25MergedModelProvider.java:146)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$XmlModelListener.modelsChanged(AbstractMergedModelProvider.java:91)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$NotifyRunner.run(JEE5ModelProvider.java:470)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.notifyListeners(JEE5ModelProvider.java:445)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.resourceChanged(JEE5ModelProvider.java:117)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$ResourceAdapter.notifyChanged(JEE5ModelProvider.java:81)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.setModified(ResourceImpl.java:1867)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.modified(ResourceImpl.java:486)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didRemove(ResourceImpl.java:447)
+	at org.eclipse.emf.common.util.AbstractEList.didClear(AbstractEList.java:170)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didClear(ResourceImpl.java:466)
+	at org.eclipse.emf.common.util.BasicEList.clear(BasicEList.java:639)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.doClear(NotifyingListImpl.java:1158)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.clear(NotifyingListImpl.java:1085)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.doUnload(ResourceImpl.java:1699)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doUnload(XMLResourceImpl.java:720)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.unload(ResourceImpl.java:1721)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.removeAndUnloadAllResources(ProjectResourceSetImpl.java:885)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.release(ProjectResourceSetImpl.java:866)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.release(ResourceSetWorkbenchEditSynchronizer.java:222)
+	at org.eclipse.jem.util.emf.workbench.ResourceSetWorkbenchSynchronizer.resourceChanged(ResourceSetWorkbenchSynchronizer.java:184)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.resourceChanged(ResourceSetWorkbenchEditSynchronizer.java:137)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:271)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:376)
+	at org.eclipse.core.internal.resources.Resource.broadcastPreDeleteEvent(Resource.java:1851)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:747)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:320)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.jst.jee 4 0 2023-01-18 09:53:55.529
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.createModelResource(JEE5ModelProvider.java:209)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:190)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:233)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.getXmlWebApp(Web25MergedModelProvider.java:59)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.internalModelChanged(Web25MergedModelProvider.java:155)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.xmlModelChanged(Web25MergedModelProvider.java:146)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$XmlModelListener.modelsChanged(AbstractMergedModelProvider.java:91)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$NotifyRunner.run(JEE5ModelProvider.java:470)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.notifyListeners(JEE5ModelProvider.java:445)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.resourceChanged(JEE5ModelProvider.java:117)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$ResourceAdapter.notifyChanged(JEE5ModelProvider.java:81)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.setModified(ResourceImpl.java:1867)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.modified(ResourceImpl.java:486)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didRemove(ResourceImpl.java:447)
+	at org.eclipse.emf.common.util.AbstractEList.didClear(AbstractEList.java:170)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didClear(ResourceImpl.java:466)
+	at org.eclipse.emf.common.util.BasicEList.clear(BasicEList.java:639)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.doClear(NotifyingListImpl.java:1158)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.clear(NotifyingListImpl.java:1085)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.doUnload(ResourceImpl.java:1699)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doUnload(XMLResourceImpl.java:720)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.unload(ResourceImpl.java:1721)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.removeAndUnloadAllResources(ProjectResourceSetImpl.java:885)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.release(ProjectResourceSetImpl.java:866)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.release(ResourceSetWorkbenchEditSynchronizer.java:222)
+	at org.eclipse.jem.util.emf.workbench.ResourceSetWorkbenchSynchronizer.resourceChanged(ResourceSetWorkbenchSynchronizer.java:184)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.resourceChanged(ResourceSetWorkbenchEditSynchronizer.java:137)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:271)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:376)
+	at org.eclipse.core.internal.resources.Resource.broadcastPreDeleteEvent(Resource.java:1851)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:747)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:320)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:54:59.582
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:54:59.584
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:55:25.541
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:55:25.542
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:55:38.544
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:55:38.545
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:56:18.133
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:56:18.134
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:56:23.859
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 09:56:23.861
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:04:53.435
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:04:53.436
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:05:14.881
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:05:14.882
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:08:12.249
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:08:12.249
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:17:25.842
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:17:25.843
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:18:30.179
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:18:30.179
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:19:18.708
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:19:18.710
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:26:05.273
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:26:05.274
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:27:38.788
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:27:38.789
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:30:02.038
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:30:02.039
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:30:11.744
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:30:11.745
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:31:00.700
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:31:00.701
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:31:31.014
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:31:31.016
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:31:49.193
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:31:49.195
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:31:55.819
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:31:55.820
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:34:42.529
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:34:42.530
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:36:34.700
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:36:34.702
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:36:49.216
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:36:49.216
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:38:30.220
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:38:30.221
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:38:32.567
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:38:32.568
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:40:23.135
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:40:23.136
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:44:03.812
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:44:03.813
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:49:02.938
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 10:49:02.939
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:08:00.454
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:08:00.455
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:13:24.789
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:13:24.790
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:15:42.817
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:15:42.818
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:16:21.461
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:16:21.462
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:16:31.883
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:16:31.884
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:17:11.419
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:17:11.420
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:17:49.887
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:17:49.888
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:18:06.894
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:18:06.895
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:19:24.346
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:19:24.347
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:21:02.232
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:21:02.234
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:21:11.975
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:21:11.976
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:21:47.410
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:21:47.411
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:34:16.933
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:34:16.934
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:34:20.423
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:34:20.425
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:37:20.101
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:37:20.102
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:37:23.148
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:37:23.149
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:38:18.332
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:38:18.333
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:40:58.647
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:40:58.648
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:41:23.511
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:41:23.512
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:42:39.300
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:42:39.301
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:42:45.418
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:42:45.420
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:46:40.667
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 11:46:40.668
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:24:23.975
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:24:23.976
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:24:23.977
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:24:25.370
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:24:25.372
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:24:28.870
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:24:28.871
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:25:49.833
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:25:49.834
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:26:09.077
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:26:09.078
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:26:45.384
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:26:45.385
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:27:16.736
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:27:16.737
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:27:28.667
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:27:28.668
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:27:51.979
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:27:51.980
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:28:02.414
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:28:02.415
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.227
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.ws.consumption.ui.doc.user_1.0.700.v201903222115 [425]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.229
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jdt.doc.user_3.15.1200.v20210901-0815 [306]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.230
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.ws.axis2.ui.doc.user_1.0.200.v201903222115 [421]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.232
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.command.env.doc.user_1.5.400.v201903222115 [623]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.233
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.jsdt.doc_2.1.0.v202101250139 [669]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.235
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.dtdeditor.doc.user_1.1.0.v201903222120 [646]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.237
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.j2ee.doc.user_1.1.400.v202101072335 [359]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.238
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.platform.doc.user_4.21.0.v20210901-0815 [570]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.239
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xmleditor.doc.user_1.1.0.v201903222120 [732]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.240
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201903222120 [735]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.241
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.ejb.doc.user_1.1.301.v201903222024 [354]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.243
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.ws.axis.ui.doc.user_1.1.200.v201903222115 [414]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.244
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.wsdl.ui.doc.user_1.0.850.v201903222115 [718]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.246
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.webtools.doc.user_1.0.500.v201903222120 [708]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.247
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.server.ui.doc.user_1.1.600.v201901310132 [695]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.249
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.pde.doc.user_3.14.1300.v20210901-1615 [555]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.250
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.ws.doc.user_1.0.700.v201903222115 [435]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.251
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.wsi.ui.doc.user_1.0.750.v201903222115 [722]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.252
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.server.ui.doc.user_1.0.600.v201901310132 [403]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-01-18 13:29:50.254
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.sse.doc.user_1.2.0.v201903222120 [698]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/descriptors/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/manipulation/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/request/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/folding/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/model/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/overview-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/connect/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/util/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/event/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/shell/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/hover/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/actions/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/infer/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/msdn/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/formatter/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/refactoring/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/ast/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/rewrite/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/eval/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/launching/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/breakpoints/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/dialogs/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/project/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/wizards/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2023-01-18 13:29:52.408
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/package-summary.html cannot be opened.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 13:30:22.337
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:30:22.338
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:30:22.339
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 13:39:27.379
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:39:27.381
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:39:27.382
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 13:39:30.401
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:39:30.403
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:39:30.403
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 13:39:34.994
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:39:34.996
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:39:34.997
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 13:51:41.048
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:51:41.049
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:51:41.050
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 13:53:25.782
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:53:25.784
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:53:25.785
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 13:56:20.363
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:56:20.365
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:56:20.365
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 13:57:36.644
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:57:36.645
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 13:57:36.646
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:01:16.706
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:01:16.707
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:01:16.708
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:24:33.117
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:24:33.118
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:24:33.120
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:26:58.089
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:26:58.090
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:26:58.091
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:27:42.554
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:27:42.555
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:27:42.556
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:27:57.718
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:27:57.719
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:27:57.720
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:28:47.488
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:28:47.489
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:28:47.490
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:28:57.787
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:28:57.788
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:28:57.789
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:31:25.851
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:31:25.851
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:31:25.852
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:36:39.904
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:36:39.906
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:36:39.906
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:39:28.904
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:39:28.906
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:39:28.907
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:40:25.822
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:40:25.823
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:40:25.824
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:40:41.385
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:40:41.386
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:40:41.387
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:41:36.580
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:41:36.581
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:41:36.582
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:44:49.929
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:44:49.931
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:44:49.932
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:45:27.614
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:45:27.615
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:45:27.616
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:45:46.490
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:45:46.491
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:45:46.492
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:46:40.906
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:46:40.907
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:46:40.909
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:48:58.149
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:48:58.150
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:48:58.151
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:50:03.733
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:50:03.734
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:50:03.735
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:51:21.729
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:51:21.731
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:51:21.732
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 14:52:53.423
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:52:53.425
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 14:52:53.426
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:16:15.121
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:16:15.122
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:16:15.124
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:16:29.242
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:16:29.243
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:16:29.245
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:16:35.511
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:16:35.512
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:16:35.513
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:16:49.383
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:16:49.384
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:16:49.386
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:20:12.513
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:20:12.514
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:20:12.515
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:24:43.331
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:24:43.332
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:24:43.333
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:25:09.716
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:25:09.717
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:25:09.718
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:26:46.511
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:26:46.512
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:26:46.513
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:31:10.876
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:31:10.877
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:31:10.878
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:31:15.469
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:31:15.471
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:31:15.472
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:31:43.486
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:31:43.488
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:31:43.488
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:32:22.570
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:32:22.572
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:32:22.572
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:32:48.970
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:32:48.971
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:32:48.971
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:46:44.065
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:46:44.066
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:46:44.067
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-18 15:46:46.673
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:46:46.674
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-18 15:46:46.675
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!

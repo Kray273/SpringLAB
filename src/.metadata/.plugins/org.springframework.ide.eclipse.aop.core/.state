@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="Day132_AnotationMVC"/>
+<aop-project name="Day136_fileloading"/>
 <aop-project name="Day134_MyBatis"/>
 <aop-project name="Day131_AOP">
 <aspect-definition advice-class-name="aop1.Common" advice-method-name="b" advice-type="AFTER" aspect-end-line-number="20" aspect-name="common" aspect-start-line-number="20" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/Day131_AOP/src/main/java/aop1/aop1.xml" pointcut-expression="execution(public * aop1.*.*(..))" proxy-target-class="false">
@@ -24,6 +25,7 @@
 <aop-reference advice-type="AROUND" bean="1:BeansModel|2:Day131_AOP|3:src/main/java/aop1/aop1.xml|7:beans:6|8:board:10" bean-file="/Day131_AOP/src/main/java/aop1/aop1.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/Day131_AOP/src/main/java/aop1/aop1.xml" source="=Day131_AOP/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;aop1{Common.java[Common~c~QProceedingJoinPoint;" source-start-line="19" target="=Day131_AOP/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;aop1{Board.java[Board~getList" target-start-line="10"/>
 </aspect-definition>
 </aop-project>
+<aop-project name="Day135_SpringMVC"/>
 <aop-project name="Day130_first"/>
 <aop-project name="Day131_MVC"/>
 </aop-reference-model>

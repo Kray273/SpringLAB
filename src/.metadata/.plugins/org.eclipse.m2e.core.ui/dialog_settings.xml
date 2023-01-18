@@ -6,6 +6,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\sba\Workspace\SpringLAB\src\Day136_file"/>
+			<item value="C:\sba\Workspace\SpringLAB\src\Day135_"/>
 			<item value="C:\sba\Workspace\SpringLAB\src\Day132_"/>
 			<item value="C:\sba\Workspace\SpringLAB\src\Day131_MVC"/>
 			<item value="C:\sba\Workspace\SpringLAB\src\Day131_AOP"/>
@@ -19,8 +21,6 @@
 			<item value="C:\workspaces\SpringLAB\src\Day55_SpringMVC_Login"/>
 			<item value="C:\workspaces\SpringLAB\src\Day54_SpringMVC_Board_Annotation"/>
 			<item value="C:\workspaces\SpringLAB\src\Day53_SpringMVC_Board"/>
-			<item value="C:\workspaces\SpringLAB\src\Day52_SpringMVC_Board"/>
-			<item value="C:\workspaces\SpringLAB\src\Day52_SpringMVC"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
