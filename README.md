@@ -26,15 +26,15 @@ Day57 https://www.notion.so/Day57_Mybatis-068df85f92454b128d73f500012687c3
 
 Day130 https://www.notion.so/Day-BE-130_-02a4201b8ab44590838201d92cbf92f6
 
-Day131
+Day131 https://www.notion.so/Day-BE-131_AOP-c951d80ab03247888cdd163282936732
 
-Day132
+Day132 https://www.notion.so/Day-BE-132_MVC2-a4319d45b569418995c766f7ea148ba5  
 
-Day133
+Day133 https://www.notion.so/Day-DA-133_HRDataSet-72f6f7e6a19b48b29e1d818175813bba
 
-Day134
+Day134 https://www.notion.so/Day-BE-134_Mybatis-c32d3cf67a7d412cb73d38f1ddbf98eb
 
-Day135
+Day135 https://www.notion.so/Day-BE-135_Mybais-SpringMVC-bb72875bd67b42aba503320d15a7f76c
 
 Day136
 
