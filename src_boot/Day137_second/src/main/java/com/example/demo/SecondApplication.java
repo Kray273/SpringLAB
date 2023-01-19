@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,6 +11,9 @@ import org.springframework.context.annotation.ComponentScan;
 // 하지만 다른 패키지를 스캔하고 싶으면
 @ComponentScan
 @ComponentScan(basePackages = "upload")
+@ComponentScan(basePackages = "mybatis")
+@MapperScan(basePackages = "mybatis") //@mapper을 읽어라
+@ComponentScan(basePackages = "websocket")
 public class SecondApplication {
 
 	public static void main(String[] args) { //내장된 톰켓서버를 실행하는 메인
