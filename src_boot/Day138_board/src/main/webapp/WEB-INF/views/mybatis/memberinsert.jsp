@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>회원가입_mybitis</title>
 </head>
-<script src="<%=request.getContextPath() %>/resources/js/jquery-3.6.1.min.js"/>
+<script src="js/jquery-3.6.1.min.js" ></script>
 <script >
 
 </script>

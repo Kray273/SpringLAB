@@ -14,7 +14,8 @@
 <% 
 	List<MemberDTO> memberlist = (List<MemberDTO>)request.getAttribute("memberlist");
 	for(MemberDTO m : memberlist){ %>
-	<h6><%=m.getId()%> : <%=m.getPw()%> : <%=m.getName()%> : <%=m.getAddress()%></h6>
+	<h6><a href="othermemberinform?id=<%=m.getId()%>"> <%=m.getId()%></a> : 
+	<%=m.getPw()%> : <%=m.getName()%> : <%=m.getAddress()%></h6>
 	<% } %>
 
 </body>

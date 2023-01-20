@@ -21,5 +21,4 @@ public class ChatWebSocketConfig implements WebSocketConfigurer {
 	}
 	
 	
-	
 }

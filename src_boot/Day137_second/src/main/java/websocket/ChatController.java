@@ -12,5 +12,4 @@ public class ChatController {
 		return "websocket/websocket";
 	}
 	
-	
 }
