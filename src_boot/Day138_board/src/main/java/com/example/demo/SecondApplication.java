@@ -12,6 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan
 @ComponentScan(basePackages = {"mybatis","board.spring.mybatis"})
 @MapperScan(basePackages = {"mybatis","board.spring.mybatis"}) //@mapper을 읽어라
+@ComponentScan(basePackages = "dbsecure")
 public class SecondApplication {
 
 	public static void main(String[] args) { //내장된 톰켓서버를 실행하는 메인

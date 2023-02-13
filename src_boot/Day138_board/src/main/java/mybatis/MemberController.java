@@ -185,6 +185,7 @@ public class MemberController {
 				dto = service.onemember(id);
 			}
 		}
+		
 		dto.setId(model);
 		return dto;
 	}
